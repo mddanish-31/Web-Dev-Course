@@ -1,0 +1,49 @@
+/*Element Selector*/
+div{
+    background-color:red;
+}
+/*Element Selector*/
+h2{
+    background-color:blue;
+}
+/* Id Selector*/
+#green{
+    background-color:green;
+}
+/* Class Selector*/
+.pink{
+    background-color:pink;
+}
+*{
+    margin:0;
+    padding:0;
+}
+/* Child Selector*/
+div>p{
+    background-color:rgb(54, 19, 102);
+}
+
+/* Descendant Selector*/
+div p{
+    background-color:orange;
+    color:rgb(20, 110, 78);
+}
+
+/*Pseudo Class Selector*/
+a:visited{
+    color:rosybrown;
+}
+/*background color of the link when mouse hovers over it*/
+a:hover{
+    color:aqua;
+}
+a:link{
+    color:rgb(112, 44, 89);
+}
+
+a:active{
+    color:blueviolet;
+}
+p:first-child{
+    color:rgb(99, 36, 78);
+}
