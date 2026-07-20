@@ -1,0 +1,23 @@
+p{
+    background-color:blue;
+    text-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+div p:first-child{
+    background-color:yellow;
+    color:red;
+    text-family: 'Times New Roman', Times, serif;
+}
+h1{
+    background-color:green;
+    color:white;
+    text-family: 'Times New Roman', Times, serif;
+}
+/* div p:nth-child(2){
+    background-color:pink;
+    color:red;
+    text-family: 'Times New Roman', Times, serif;
+} */
+ h1{
+    text-align: center;
+ }

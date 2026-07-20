@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+
+        .yellow {
+            color: yellow;
+        }
+        .cred {
+            color: red;     
+        }
+        .cgreen {
+            color: green;
+        }
+        h1{
+            text-align: center;
+        }
+        OL{
+            TEXT-TRANSFORM:CAPITALIZE;
+        }
+        P{
+            TEXT-TRANSFORM:CAPITALIZE;
+        }
+        BODY{
+            background-color: black;
+            COLOR:WHITE;
+        }
+        p{
+            border: 2px solid rgb(5, 135, 66);
+            margin: 23px auto;
+            width: 80vw;
+            
+        }
+        ol{
+            border: 2px solid rgb(15, 99, 73);
+            width: 80vw;
+            margin: 23px auto;
+            height: 50vh;    
+        }
+        footer{
+           text-align: center;
+            width: 80vw;
+            margin: 23px auto;
+            height: 10vh;    
+        }
+    </style>
+</head>
+<body>
+    <h1 class="yellow cred cgreen">Understanding CSS Specificity</h1>
+    <p>What is CSS Specificity</p>
+    <p>CSS Specificity is a set of rules that determine which CSS declaration will be applied to an element.</p>
+    <OL>
+    <LI>UNIVERSAL SELECTOR--0</LI>
+    <LI>ELEMENT SELECTOR--1</LI>
+    <LI>CLASS SELECTOR--10</LI>
+    <LI>ID SELECTOR--100</LI>
+    <LI>INLINE SELECTOR--1000</LI>
+    </OL>
+<footer>
+    <p>Copyright &copy; 2024 CSS Specificity</p>
+</body>
+</html>
