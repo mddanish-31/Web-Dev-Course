@@ -1,0 +1,102 @@
+/* Google Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* Body */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a, #2563eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+/* Container */
+.container {
+  width: 1100px;
+}
+/* Heading */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+header h1 {
+  color: white;
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+header p {
+  color: #dbeafe;
+  font-size: 18px;
+}
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+/* Cards */
+.card {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 22px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transition: 0.35s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.35);
+  background: rgba(255, 255, 255, 0.18);
+}
+/* Card Heading */
+.card h2 {
+  color: #7dd3fc;
+  margin-bottom: 18px;
+  font-size: 24px;
+}
+.card h2 i {
+  margin-right: 8px;
+}
+/* Links */
+.card a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.card a:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #7dd3fc;
+  transform: translateX(8px);
+}
+/* Footer */
+footer {
+  margin-top: 45px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+footer strong {
+  color: #7dd3fc;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+  header h1 {
+    font-size: 32px;
+  }
+  header p {
+    font-size: 15px;
+  }
+}
