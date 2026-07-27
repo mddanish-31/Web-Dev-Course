@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --color:blue;
+            --seccolor:rgb(112, 69, 130);
+            --defo:0.5;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color: var(--color);
+        }
+        ul{
+            opacity:var(--defo);
+            display:flex;
+        }
+        ul li{
+            opacity: 100;
+            border:12px solid rgb(117, 23, 122); 
+            padding:34px;
+            list-style: none;
+        }
+        .container{
+            background-color: var(--seccolor);
+        }
+        .paragraph{
+            background-color: var(--color);
+        }
+        ul li:first-child{
+            --color:rgb(156, 80, 93);
+            background-color: var(--color);
+        }
+        ul li:nth-child(2){
+            --color:rgb(120, 32, 45);
+            background-color: var(--color);
+        }
+        ul li:nth-child(3){
+            --color:rgb(232, 114, 200);
+            background-color: var(--color);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellendus recusandae minima aspernatur sapiente, nostrum corrupti quos consequuntur, molestias dignissimos facere ipsum fugit quaerat autem blanditiis. Aperiam ducimus optio veritatis!</p>
+    </div>
+    <div class="paragraph">
+        i am a paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor maiores iusto deleniti officia expedita vel, excepturi autem explicabo. Quos veritatis fugit dignissimos quisquam?
+    </div>
+</body>
+</html>
